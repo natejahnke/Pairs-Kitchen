@@ -2,11 +2,13 @@ img {
     width: 30%;
     float: left;
     margin: 1.66%;
-    border: 10px solid black;
+    border: 10px solid white;
     box-sizing: border-box;
     /*box-sizing: inherit;*/
-    -webkit-box-shadow: 5px 5px 5px #111;
-    box-shadow: 5px 5px 5px #111;
+    /*-webkit-box-shadow: 5px 5px 5px #111;*/
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    /*box-shadow: 5px 5px 5px #111;*/
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
 }
 
 
