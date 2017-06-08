@@ -2,7 +2,11 @@ img {
     width: 30%;
     float: left;
     margin: 1.66%;
-    clip: rect(0px,0px,123px,0px);
+    border: 10px solid black;
+    box-sizing: border-box;
+    /*box-sizing: inherit;*/
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
 }
 
 
@@ -16,3 +20,20 @@ p {
     width: 30%;
     padding-bottom: 20px;
 }
+
+/*.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-2deg);
+     -moz-transform: rotate(-2deg);
+       -o-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}*/
+
